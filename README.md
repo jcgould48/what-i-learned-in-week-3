@@ -22,3 +22,10 @@ To test something locally with JS you can go to terminal and used node command w
         const userInput = process.argv[2] allows functions to be run in terminal with node like an app.
 
         The function keyword goes first, then goes the name of the function, then a list of parameters between the parentheses (comma-separated, empty in the example above) and finally the code of the function, also named “the function body”, between curly braces.
+
+        Global variables
+Variables declared outside of any function, such as the outer userName in the code above, are called global.
+
+Global variables are visible from any function (unless shadowed by locals).
+
+It’s a good practice to minimize the use of global variables. Modern code has few or no globals. Most variables reside in their functions. Sometimes though, they can be useful to store project-level data.
