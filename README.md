@@ -29,3 +29,11 @@ Variables declared outside of any function, such as the outer userName in the co
 Global variables are visible from any function (unless shadowed by locals).
 
 It’s a good practice to minimize the use of global variables. Modern code has few or no globals. Most variables reside in their functions. Sometimes though, they can be useful to store project-level data.
+
+
+### Wednesday
+
+Return value functions
+Functions that return the value automatically.  In other functions you have to call them, otherwise they do nothing with the value.  With return value functions, part of the structure of the function is actually going through with the formula.
+
+### Thursday
